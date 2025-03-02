@@ -27,3 +27,7 @@ curl -ksSL https://gitlab.com/rwkgyg/cdnopw/raw/main/cdnopw.sh -o cdnopw.sh && b
 #### 该项目使用base64加密，可自行解密，介意者请勿使用，[加密原因在此](https://ygkkk.blogspot.com/2022/06/github.html)
 
 #### 所有代码来源于Github社区与ChatGPT的整合；如您需要开源代码，请提Issues留下您的联系邮箱
+
+注意计划任务里面加上定时优选
+0 3 * * * cd /root/cfipopw/ && bash cdnip.sh
+
